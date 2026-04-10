@@ -1,0 +1,82 @@
+{
+  "1": {
+    "category": "Burgers",
+    "items": [
+      { "id": "b1", "name": "Aloo Tikki Burger", "price": 49, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b2", "name": "Veg Cheese Burger", "price": 69, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b3", "name": "Double Tikki Burger", "price": 89, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b4", "name": "Maharaja Burger", "price": 149, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b5", "name": "Paneer Burger", "price": 119, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b6", "name": "Spicy Chilli Burger", "price": 79, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b7", "name": "Crispy Veg Burger", "price": 99, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b8", "name": "Paneer Tikka Burger", "price": 129, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b9", "name": "Aloo Wrap Burger", "price": 59, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b10", "name": "Mushroom Burger", "price": 109, "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?w=500" },
+      { "id": "b11", "name": "Classic Chicken Burger", "price": 139, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" },
+      { "id": "b12", "name": "Chicken Zinger", "price": 159, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" },
+      { "id": "b13", "name": "Double Zinger", "price": 199, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" },
+      { "id": "b14", "name": "Chicken Cheese Burger", "price": 169, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" },
+      { "id": "b15", "name": "Spicy Chicken Burger", "price": 149, "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" }
+    ]
+  },
+  "2": {
+    "category": "Pizzas",
+    "items": [
+      { "id": "p1", "name": "Margherita", "price": 149, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p2", "name": "Cheese & Corn", "price": 169, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p3", "name": "Farmhouse", "price": 229, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p4", "name": "Peppy Paneer", "price": 249, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p5", "name": "Mexican Green Wave", "price": 239, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p6", "name": "Veg Extravaganza", "price": 279, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p7", "name": "Paneer Makhani", "price": 259, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p8", "name": "Indi Tandoori Paneer", "price": 269, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p9", "name": "Veggie Paradise", "price": 219, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p10", "name": "Cheese Volcano", "price": 299, "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" },
+      { "id": "p11", "name": "Chicken Sausage", "price": 199, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500" },
+      { "id": "p12", "name": "Chicken Tikka", "price": 269, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500" },
+      { "id": "p13", "name": "Pepper Barbecue Chicken", "price": 249, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500" },
+      { "id": "p14", "name": "Chicken Dominator", "price": 319, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500" },
+      { "id": "p15", "name": "Non-Veg Supreme", "price": 349, "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=500" }
+    ]
+  },
+  "3": {
+    "category": "Wraps",
+    "items": [
+      { "id": "w1", "name": "Aloo Wrap", "price": 79, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w2", "name": "Paneer Wrap", "price": 119, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w3", "name": "Cheese Melt Wrap", "price": 99, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w4", "name": "Soya Chaap Wrap", "price": 109, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w5", "name": "Tandoori Paneer Wrap", "price": 129, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w6", "name": "Mexican Veg Wrap", "price": 110, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w7", "name": "Spicy Veg Wrap", "price": 89, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w8", "name": "Mushroom Wrap", "price": 120, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w9", "name": "Falafel Wrap", "price": 139, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w10", "name": "Peri Peri Veg Wrap", "price": 99, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w11", "name": "Chicken Wrap", "price": 139, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w12", "name": "Chicken Tikka Wrap", "price": 159, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w13", "name": "Egg Wrap", "price": 89, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w14", "name": "Chicken Seekh Wrap", "price": 149, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" },
+      { "id": "w15", "name": "Mutton Wrap", "price": 199, "image": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500" }
+    ]
+  },
+  "4": {
+    "category": "Desserts & Shakes",
+    "items": [
+      { "id": "s1", "name": "Vanilla Shake", "price": 99, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s2", "name": "Chocolate Shake", "price": 119, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s3", "name": "Strawberry Shake", "price": 109, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s4", "name": "Oreo Shake", "price": 139, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s5", "name": "KitKat Shake", "price": 149, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s6", "name": "Cold Coffee", "price": 89, "image": "https://images.unsplash.com/photo-1461023058943-07cb1ce89b0d?w=500" },
+      { "id": "s7", "name": "Brownie Frappe", "price": 159, "image": "https://images.unsplash.com/photo-1461023058943-07cb1ce89b0d?w=500" },
+      { "id": "s8", "name": "Mango Shake", "price": 129, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s9", "name": "Butterscotch Shake", "price": 119, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s10", "name": "Nutella Shake", "price": 169, "image": "https://images.unsplash.com/photo-1572490122747-3968b75e59c7?w=500" },
+      { "id": "s11", "name": "Choco Lava Cake", "price": 99, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" },
+      { "id": "s12", "name": "Hot Brownie with Ice Cream", "price": 129, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" },
+      { "id": "s13", "name": "Red Velvet Pastry", "price": 89, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" },
+      { "id": "s14", "name": "Black Forest Pastry", "price": 79, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" },
+      { "id": "s15", "name": "Pineapple Pastry", "price": 69, "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" }
+    ]
+  }
+}
