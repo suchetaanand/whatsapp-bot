@@ -7,8 +7,32 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
 
+const qrcodeLib = require('qrcode');
+let currentQR = null;
+
 app.get('/', (req, res) => {
-  res.send('WhatsApp Bot Server is running!');
+  if (currentQR) {
+    res.send(`
+      <html>
+        <head><title>Bot Login</title></head>
+        <body style="text-align: center; font-family: sans-serif; padding-top: 50px;">
+          <h1>WhatsApp Bot - Web Login</h1>
+          <p>Scan this QR code with your WhatsApp to start the bot:</p>
+          <img src="${currentQR}" style="width: 300px; height: 300px; border: 2px solid #ccc; padding: 10px; border-radius: 10px;" />
+          <p><small>Refresh this page if the bot is not yet ready.</small></p>
+        </body>
+      </html>
+    `);
+  } else {
+    res.send(`
+      <html>
+        <body style="text-align: center; font-family: sans-serif; padding-top: 100px; color: green;">
+          <h1>✅ WhatsApp Bot is Online and Running!</h1>
+          <p>No QR code needed right now. The bot is fully connected to your phone.</p>
+        </body>
+      </html>
+    `);
+  }
 });
 
 app.listen(port, () => {
@@ -32,12 +56,18 @@ const client = new Client({
 // userState[from] = { step: 'MENU', cart: [] }
 const userState = {};
 
-client.on('qr', (qr) => {
-    console.log('SCAN THIS QR CODE WITH YOUR WHATSAPP:');
+client.on('qr', async (qr) => {
+    console.log('QR Code generated. Vist your Railway app webpage to scan it!');
     qrcode.generate(qr, { small: true });
+    try {
+        currentQR = await qrcodeLib.toDataURL(qr);
+    } catch (e) {
+        console.error(e);
+    }
 });
 
 client.on('ready', () => {
+    currentQR = null;
     console.log('Client is ready! The restaurant bot is now online.');
 });
 
