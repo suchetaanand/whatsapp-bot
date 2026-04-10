@@ -2,6 +2,20 @@ const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const fs = require('fs');
 
+// --- Railway Healthcheck Fix ---
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.get('/', (req, res) => {
+  res.send('WhatsApp Bot Server is running!');
+});
+
+app.listen(port, () => {
+  console.log(`Express web server listening on port ${port} to satisfy Railway Healthcheck`);
+});
+// -------------------------------
+
 // Load menu data
 const menuData = JSON.parse(fs.readFileSync('./menu.json', 'utf8'));
 
@@ -9,7 +23,7 @@ const menuData = JSON.parse(fs.readFileSync('./menu.json', 'utf8'));
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
-        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--no-first-run'],
     }
 });
 
