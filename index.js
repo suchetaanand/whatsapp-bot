@@ -23,6 +23,7 @@ const menuData = JSON.parse(fs.readFileSync('./menu.json', 'utf8'));
 const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
+        executablePath: '/usr/bin/chromium',
         args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--no-first-run'],
     }
 });
